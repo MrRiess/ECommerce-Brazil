@@ -1,1 +1,1 @@
-https://share.streamlit.io/
+https://proyek-data-analyst-1-dicoding-e-commerce-public.streamlit.app/
