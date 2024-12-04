@@ -105,8 +105,9 @@ def main():
     st.title("Dashboard Penjualan dan Analisis Pelanggan")
 
     # Membaca dataset langsung dari path yang sudah diberikan
-    file_path = r"C:\Users\farid\Latihan VSCode\Latihan Data Analyst\Data Analyst\Contoh 1\Proyek\product_orders_sellers_review_customer_merged.csv"
-    data = pd.read_csv(file_path, parse_dates=['order_purchase_timestamp', 'order_delivered_customer_date'])
+# URL dataset
+    url = "https://raw.githubusercontent.com/MrRiess/Proyek-Data-Analyst-1/main/Dashboard/product_orders_sellers_review_customer_merged.csv"
+    data = pd.read_csv(url, parse_dates=['order_purchase_timestamp', 'order_delivered_customer_date'])
 
     # Menampilkan data yang diunggah
     st.subheader("Data yang Diunggah")
