@@ -17,3 +17,7 @@ pip install -r requirements.txt
 ```sh
 streamlit run dashboard.py
 ```
+## URL streamlit app
+```sh
+https://proyek-data-analyst-1-dicoding-e-commerce-public.streamlit.app/
+```
